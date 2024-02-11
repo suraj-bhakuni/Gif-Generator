@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* css background-image generated using https://10015.io/tools/css-background-pattern-generator */
+.background {
+  background-image: radial-gradient(#ffffff 2.5px, transparent 2.5px), radial-gradient(#ffffff 2.5px, transparent 2.5px);
+  background-size: 36px 36px;
+  background-position: 0 0, 18px 18px;
+  background-color: #b1d2ff;
+}
+
+
+/* css loader generated using https://10015.io/tools/css-loader-generator */
+/* .spinner {
+   margin: 40px;
+   width: 11.2px;
+   height: 11.2px;
+   animation: spinner-z355kx 1s infinite linear;
+   border-radius: 11.2px;
+   box-shadow: 28px 0px 0 0 #fff, 17.4px 21.8px 0 0 #fff, -6.2px 27.2px 0 0 #fff, -25.2px 12px 0 0 #fff, -25.2px -12px 0 0 #fff, -6.2px -27.2px 0 0 #fff, 17.4px -21.8px 0 0 #fff;
+}
+
+@keyframes spinner-z355kx {
+   to {
+      transform: rotate(360deg);
+   }
+} */
+
+.spinner {
+   width: 50px;
+   height: 50px;
+   border-radius: 50%;
+   background: 
+     radial-gradient(farthest-side,#766DF4 94%,#0000) top/8px 8px no-repeat,
+     conic-gradient(#0000 30%,#766DF4);
+   -webkit-mask: radial-gradient(farthest-side,#0000 calc(100% - 8px),#000 0);
+   mask: radial-gradient(farthest-side,#0000 calc(100% - 8px),#000 0);
+   animation:s3 1s infinite linear;
+ }
+ 
+ @keyframes s3{ 
+   100%{transform: rotate(1turn)}
+ }
